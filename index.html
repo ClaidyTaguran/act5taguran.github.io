@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {font-size: 50px;}
+h2 {font-size: 30px;}
+p {
+  font-size: 15px;
+  line-height: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1>Absolute and Relative </h1>
+<h2>Absolute </h2>
+<p>Absolute Length</p>
+<p>Absolute Length in pixels</p>
+p {
+  font-size: 16px;
+  line-height: 2em;
+}
+
+div {
+  font-size: 30px;
+  border: 1px solid black;
+}
+
+span {
+  font-size: 0.5em;
+}
+</style>
+</head>
+<body>
+
+<p>These paragraphs have a calculated line-height of: 2x16px = 32px.</p>
+<p>These paragraphs have a calculated line-height of: 2x16px = 32px.</p>
+<p>These paragraphs have a calculated line-height of: 2x16px = 32px.</p>
+<div>The font-size of the div element is set to 30px. <span>The span element inside the div element has a font-size of 0.5em, which equals to 0.5x30 = 15px</span>.</div>
+<style>
+#p1 {background-color:#ff0000;}
+#p3 {background-color:#0000ff;}
+#p5 {background-color:#ff00ff;}
+</style>
+</head>
+<body>
+
+<h2>HEX colors</h2>
+<p>A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color. All values must be between 00 and FF.</p>
+
+<p id="p1">Red</p>
+<p id="p3">Blue</p>
+<p id="p5">Cerise</p>
+<style>
+
+#p1a {background-color:#ff000080;}
+#p3a {background-color:#0000ff80;}
+#p5a {background-color:#ff00ff80;}
+</style>
+</head>
+<body>
+
+<h2>HEX colors with transparency</h2>
+<p>A hexadecimal color is specified with: #RRGGBB. To add transparency, add two additional digits between 00 and FF.</p>
+
+<p id="p1a">Red transparency</p>
+<p id="p3a">Blue transparency</p>
+<p id="p5a">Cerise transparency</p>
+<style>
+#p1 {background-color:rgba(255,0,0,0.3);}
+#p2 {background-color:rgba(0,255,0);}
+#p3 {background-color:rgba(0,0,255,0.3);}
+#p4 {background-color:rgba(192,192,192,0.3);}
+#p5 {background-color:rgba(255,255,0);}
+#p6 {background-color:rgba(255,0,255,0.3);}
+</style>
+</head>
+<body>
+
+<h2>RGB colors with & w/o opacity</h2>
+
+<p id="p1">Red</p>
+<p id="p2">Green</p>
+<p id="p3">Blue</p>
+<p id="p4">Grey</p>
+<p id="p5">Yellow</p>
+<p id="p6">Cerise</p>
+<style>
+#p1 {background-color: blue;}
+#p2 {background-color: red;}
+#p3 {background-color: coral;}
+#p4 {background-color: brown;}
+</style>
+</head>
+<body>
+
+<h2>Predefined Color Names</h2>
+<p>140 color names are predefined in the HTML and CSS color specification. These are just some of them.</p>
+
+<p id="p1">Blue</p>
+<p id="p2">Red</p>
+<p id="p3">Coral</p>
+<p id="p4">Brown</p>
+<style>
+#myDIV {
+  color: blue;
+  border: 10px solid currentcolor;
+}
+</style>
+</head>
+<body>
+
+<h2>The currentcolor Keyword</h2>
+<p>The currentcolor keyword refers to the value of the color property of an element.</p>
+<p>The border color of the following div element will be blue, because the text color of the div element is blue:</p>
+
+<div id="myDIV">
+This div element has a blue text color and a blue border.
+</div>
+<style>
+body {
+  background-image: url('bgop.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+</head>
+<body>
+
+<h2>Background Repeat</h2>
+
+<p>By default, the background image will repeat itself if it is smaller than the element where it is specified, in this case the body element.</p>
+</body>
+</html>
